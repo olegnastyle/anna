@@ -23,6 +23,9 @@ body {
     width: 640px;
     height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6, b, strong {
@@ -57,4 +60,17 @@ h1, h2, h3, h4, h5, h6, b, strong {
 
 header {
     text-align: center;
+    /* margin-top: 170px; */
+    position: absolute;
+    z-index: 0;
+}
+
+header h1 {
+    text-align: right;
+    font-size: 48px;
+}
+
+.imgAnna {
+    position: relative;
+    margin-top: 150px;
 }
