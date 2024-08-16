@@ -10,6 +10,7 @@
 
 html, body {
     background-color: black;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -28,6 +29,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, b, strong {
     font-family: "El Messiri Bold", sans-serif;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 640px) {
@@ -65,7 +67,7 @@ header {
 
 h1 {
     display: flex;
-    font-size: 48px;
+    font-size: 42px;
     justify-content: space-between;
     width: 560px;
 }
@@ -77,8 +79,24 @@ h1 span:first-child {
 
 h1 span:last-child {
     position: absolute;
-    right: 0px;
+    right: -30px;
 }
+
+h2 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+h2 span:first-child {
+    position: absolute;
+    left: 50px;
+}
+
+h2 span:last-child {
+    position: absolute;
+    right: 120px;
+}
+
 
 .imgAnna {
     position: relative;
